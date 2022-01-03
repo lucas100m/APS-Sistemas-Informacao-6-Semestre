@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>APS</title>
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/aps.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+        @font-face {
+            font-family: 'Poppins-Light';src: url('src/font/poppins/Poppins-Light.ttf');
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="verde-bar container-fluid">
+            <a class="navbar-brand a" href="#"><img height="20%" width="20%" src="src/image/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="menu-right collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#greenit">Green IT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ongs">ONG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cursor" onclick="showModal()">Colaboradores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="principal">
+        <div class="reciclavel">
+            <div class="conteudo">
+                <section class="banner" id="home">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="src/image/garrafa-grama.jpg" xmlns="http://www.w3.org/2000/svg"
+                                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                <div class="container">
+                                    <div class="carousel-caption text-start">
+                                        <h2>Não jogue nosso planeta no lixo. Recicle!</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/image/lata-chao.jpg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                     preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <h2>Reciclar é fazer nossa parte para um mundo mais sustentável!</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/image/plastico.jpg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                     preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                <div class="container">
+                                    <div class="carousel-caption text-end">
+                                        <h2>A reciclagem não é benéfica apenas para o meio ambiente, mas também para os
+                                            seres humanos.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+                <section class="green-it" id="greenit">
+                    <div class="container-fluid">
+                        <div class="row align-content-center">
+                            <div class="col text-us">
+                                <br><br>
+                                <h3>Quem somos?</h3><br>
+                                <hr class="featurette-divider">
+                                <br>
+                                <br>
+                                <p>APS é uma organização não-governamental sem fins lucrativos que visa através do
+                                    "PROJETO RECICLAR", promover a cidadania com pessoas carentes da baixada santista,
+                                    especialmente, aos catadores e moradores de rua. É com esse objetivo que nos
+                                    dedicamos a ensinar a essas pessoas, como gerar o seu sustento e de sua família,
+                                    através do processo organizado de reciclagem. .</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="quem-somos" id="quemsomos">
+                    <div class="container-fluid">
+                        <div class="row align-content-start">
+                            <div class="col-md-12 col-lg-6 col-sm-12 text-us">
+                                <br><br>
+                                <h3>Green IT</h3><br>
+                                <hr class="featurette-divider">
+                                <br>
+                                <p>Este termo, temo como conceito o reparo de equipamentos, uso e reuso de recursos
+                                    naturais, além da implementação de uma arquitetura empresarial, fazendo assim uma
+                                    infraestrutura onde a mesma permite uma vida útil maios aos equipamentos de
+                                    informática. Outa finalidade do Green It é a legislação ambiental, que em tese toda
+                                    empresa é obrigada a seguir.
+                                    <br>Seus Benefícios, com a iniciativa de redução do impacto ambiental, gera uma
+                                    atenção e empatia do público e não traz despesas para uma empresa, trazendo assim
+                                    uma valorização da marca, outro ponto é a otimização de processos.
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-lg-6 col-sm-12 us-img"><img src="src/image/lixao.jpg"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="produtos" id="ongs">
+                    <div class="row ongs justify-content-center">
+                        <h3>ONG's Que Apoiamos</h3>
+                        <hr class="featurette-divider">
+                        <br>
+                        <br><br><br><br><br>
+                        <div class="row ongs-div">
+                            <div class="col-lg-3 rec4">
+                                <a href="https://cempre.org.br"><img class="bd-placeholder-img rounded-circle"
+                                                                     width="140" height="140" src="src/image/cempre.png"
+                                                                     focusable="false">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+                                    </img></a>
+                                <h2>Cempre</h2>
+
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-3 rec4">
+                                <a href="http://trevo.org.br/index.php"><img class="bd-placeholder-img rounded-circle"
+                                                                             width="140" height="140"
+                                                                             src="src/image/trevo.png"
+                                                                             focusable="false">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+                                    </img></a>
+                                <h2>Trevo</h2>
+
+                            </div><!-- /.col-lg-4 -->
+
+                            <div class="col-lg-3 rec4">
+                                <a href="https://oitoelementos.org.br/garrafas-pet-e-plasticos"><img
+                                        class="bd-placeholder-img rounded-circle" width="140" height="140"
+                                        src="src/image/oito.png" focusable="false">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+                                    </img></a>
+                                <h2>Oito Elementos</h2>
+
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-3 rec4">
+                                <a href="http://www.recicloteca.org.br"><img class="bd-placeholder-img rounded-circle"
+                                                                             width="140" height="140"
+                                                                             src="src/image/recicloteca.png"
+                                                                             focusable="false">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+                                    </img></a>
+                                <h2>Recicloteca</h2>
+                            </div><!-- /.col-lg-4 -->
+                        </div>
+                    </div>
+                </section>
+                <section class="reciclagem" id="reciclagem">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                        <div class="col-10 col-sm-8 col-lg-6">
+                            <img src="src/image/renovavel.png" class="d-block mx-lg-auto img-fluid" alt="Renovavel" width="300" height="100" loading="lazy">
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="display-5 fw-bold lh-1 mb-3">Energias Renováveis</h1>
+                            <p class="lead">São alternativas limpas às energias tradicionais, visando garantir o fornecimento futuro e gerar menos impacto ambiental. É aquela que vem de recursos naturais, como o sol, chuva, vento, marés e energia geotérmica.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                <button type="button" onclick="showSolar()" class="btn btn-primary btn-lg px-4 me-md-2">Solar</button>
+                                <button type="button" onclick="showEolica()" class="btn btn-outline-secondary btn-lg px-4">Eólica</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </section>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<footer>
+    <div class="row rodape bg-dark">
+            <div class="text-center col-3"><img class="img-fluid" width="15%" src="src/image/logo.png">
+            </div>
+            <div class="col-md-6"><span class="footer">Agradecimentos ao professor Pedro Serra por lecionar a máteria de DAW</span>
+            </div>
+            <div class="col-md-1"><span class="footer">2021</span></div>
+    </div>
+</footer>
+<script src="src/js/bootstrap.min.js"></script>
+<script src="src/js/modal.js"></script>
+</html>

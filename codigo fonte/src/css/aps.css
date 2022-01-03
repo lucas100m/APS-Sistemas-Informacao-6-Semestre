@@ -1,0 +1,565 @@
+.principal {
+    background: #1c1f23;
+}
+
+.rodape {
+    padding: 10px 10px 10px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.menu-right {
+
+}
+.ongs h3 {
+    line-height: 130px;
+    align-content: center;
+    text-align: center;
+    font-family: Poppins-Light;
+    font-size: 40px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.rec4 {
+    align-content: center;
+    text-align: center;
+}
+
+.rec4 h2 {
+    line-height: 140px;
+    align-content: center;
+    text-align: center;
+    font-family: Poppins-Light;
+}
+
+.footer {
+    color: #ffffff;
+    align-content: center;
+    text-align: center;
+    font-family: Poppins-Light;
+}
+
+.ongs-div {
+    margin-left: 0px;
+}
+.reciclagem {
+    margin: 0px 100px 0px 100px;
+    padding: 0px 80px 0px 80px;
+    background: #d8dedb;
+}
+
+.produtos {
+    margin: 0px 200px 0px 200px;
+    padding: 100px 100px 100px 100px;
+    background: #ffffff;
+    align-content: center;
+}
+
+.conteudo {
+    margin-left: 35px;
+}
+
+.quem-somos {
+    margin: 0px 200px 0px 200px;
+    background: #d8dedb;
+}
+
+.green-it {
+    margin: 0px 200px 0px 200px;
+    padding-bottom: 200px;
+    background: #ffffff;
+}
+
+.quem-somos section {
+    height: 800px;
+    width: 1000px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.banner img {
+    height: 630px;
+    width: 2300px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.banner {
+    margin: 0px 200px 0px 200px;
+}
+
+.text-us {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.text-us h3 {
+    font-family: Poppins-Light;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.text-us p {
+    font-family: Poppins-Light;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.us-img {
+    padding-right: 0px;
+}
+
+.us-img img {
+    height: 850px;
+    width: 850px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.verde-bar {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+@media only screen and (max-device-width: 1319px){
+    .verde-bar {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .menu-right {
+        padding-left: 200px;
+    }
+    .ongs h3 {
+        line-height: 130px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+        font-size: 40px;
+    }
+
+    .rec4 {
+        padding-top: 50px;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .rec4 h2 {
+        line-height: 40px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+    }
+
+    .ongs-div {
+        margin-left: 0px;
+    }
+
+    .green-it {
+        margin: 0px 100px 0px 100px;
+        padding-top: 20px;
+        padding-bottom: 120px;
+        background: #ffffff;
+    }
+
+    .banner {
+        margin: 0px 100px 0px 100px;
+    }
+
+    .quem-somos {
+        margin: 0px 100px 0px 100px;
+        background: #d8dedb;
+    }
+
+    .produtos {
+        margin: 0px 100px 0px 100px;
+        padding: 100px 100px 100px 100px;
+        background: #ffffff;
+        align-content: center;
+    }
+
+    .conteudo {
+        margin-left: 0px;
+    }
+
+    .banner img {
+        height: 630px;
+        width: 2300px;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (min-device-width: 1320px) {
+    .us-img {
+        padding-top: 0px;
+        padding-left: 0px;
+        text-align: end!important;
+    }
+    .verde-bar {
+        margin-left: 150px;
+        margin-right: 100px;
+    }
+    .verde-bar img{
+        width: 40%;
+        height: 40%;
+    }
+    .menu-right {
+        text-align: end;
+    }
+    .ongs h3 {
+        line-height: 130px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+        font-size: 40px;
+    }
+
+    .rec4 {
+        padding-top: 50px;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .rec4 h2 {
+        line-height: 40px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+    }
+
+    .ongs-div {
+        margin-left: 0px;
+    }
+
+    .green-it {
+        margin: 0px 100px 0px 100px;
+        padding-top: 20px;
+        padding-bottom: 120px;
+        background: #ffffff;
+    }
+
+    .banner {
+        margin: 0px 100px 0px 100px;
+    }
+
+    .quem-somos {
+        margin: 0px 100px 0px 100px;
+        background: #d8dedb;
+    }
+
+    .produtos {
+        margin: 0px 100px 0px 100px;
+        padding: 100px 100px 100px 100px;
+        background: #ffffff;
+        align-content: center;
+    }
+
+    .conteudo {
+        margin-left: 0px;
+    }
+
+    .banner img {
+        height: 630px;
+        width: 2300px;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-device-width: 1400px) {
+    .ongs h3 {
+        line-height: 130px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+        font-size: 40px;
+    }
+
+    .rec4 {
+        padding-top: 50px;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .rec4 h2 {
+        line-height: 40px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+    }
+
+    .ongs-div {
+        margin-left: 0px;
+    }
+
+    .green-it {
+        margin: 0px 100px 0px 100px;
+        padding-top: 20px;
+        padding-bottom: 120px;
+        background: #ffffff;
+    }
+
+    .banner {
+        margin: 0px 100px 0px 100px;
+    }
+
+    .quem-somos {
+        margin: 0px 100px 0px 100px;
+        background: #d8dedb;
+    }
+
+    .produtos {
+        margin: 0px 100px 0px 100px;
+        padding: 100px 100px 100px 100px;
+        background: #ffffff;
+        align-content: center;
+    }
+
+    .conteudo {
+        margin-left: 0px;
+    }
+
+    .banner img {
+        height: 630px;
+        width: 2300px;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (min-device-width: 260px) and (max-device-width: 760px){
+    .mobile{
+        font-size: 40px;
+    }
+
+    .text-us h3 {
+        font-family: Poppins-Light;
+        font-size: 60px;
+        text-align: center;
+        line-height: 30px;
+        margin-right: 0px;
+    }
+    .text-us p {
+        font-family: Poppins-Light;
+        font-size: 35px;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .text-us {
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+    .verde-bar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .verde-bar img{
+        margin-left: 10px;
+        margin-right: 0px;
+        height: 100px;
+        width: 120px;
+    }
+    .verde-bar button{
+        height: 100px;
+        width: 120px;
+        margin-right: 10px;
+    }
+    .verde-bar span{
+        font-size: 40px;
+    }
+    .verde-bar ul{
+        font-size: 50px;
+    }
+    .ongs h3 {
+        line-height: 130px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+        font-size: 60px;
+    }
+
+    .rec4 {
+        padding-top: 50px;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .rec4 h2 {
+        line-height: 40px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+    }
+
+    .ongs-div {
+        margin-left: 0px;
+    }
+
+    .green-it {
+        margin: 0px 0px 0px 0px;
+        padding-top: 20px;
+        padding-bottom: 120px;
+        background: #ffffff;
+    }
+
+    .banner {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .quem-somos {
+        margin: 0px 0px 0px 0px;
+        background: #d8dedb;
+    }
+    .quem-somos img {
+        margin: 0px 0px 0px 0px;
+        width: 1300px;
+    }
+    .us-img {
+        padding-top: 20px;
+        padding-left: 0px;
+        text-align: end!important;
+    }
+    .produtos {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        background: #ffffff;
+        align-content: center;
+    }
+
+    .conteudo {
+        margin-left: 0px;
+    }
+
+    .banner img {
+        height: 630px;
+        width: 2300px;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (min-device-width: 260px) and (max-device-width: 760px) and (hover: none) and (pointer: coarse){
+    .mobile{
+        font-size: 40px;
+    }
+
+    .quem-somos {
+        margin: 0px 0px 0px 0px;
+        background: #d8dedb;
+    }
+    .quem-somos img {
+        margin: 0px 0px 0px 0px;
+        width: 1300px;
+    }
+    .us-img {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .text-us h3 {
+        font-family: Poppins-Light;
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+        margin-right: 0px;
+    }
+    .text-us p {
+        font-family: Poppins-Light;
+        font-size: 15px;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .text-us {
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+    .verde-bar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .verde-bar img{
+        margin-left: 100px;
+        margin-right: 0px;
+        height: 100px;
+        width: 120px;
+    }
+    .verde-bar button{
+        height: 100px;
+        width: 120px;
+        margin-right: 80px;
+    }
+    .verde-bar span{
+        font-size: 40px;
+    }
+    .verde-bar ul{
+        font-size: 50px;
+    }
+    .ongs h3 {
+        line-height: 130px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+        font-size: 40px;
+    }
+
+    .rec4 {
+        padding-top: 50px;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .rec4 h2 {
+        line-height: 40px;
+        align-content: center;
+        text-align: center;
+        font-family: Poppins-Light;
+    }
+
+    .ongs-div {
+        margin-left: 0px;
+    }
+
+    .green-it {
+        margin: 0px 0px 0px 0px;
+        padding-top: 20px;
+        padding-bottom: 120px;
+        background: #ffffff;
+    }
+
+    .banner {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .quem-somos {
+        margin: 0px 0px 0px 0px;
+        background: #d8dedb;
+    }
+
+    .produtos {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        background: #ffffff;
+        align-content: center;
+    }
+
+    .conteudo {
+        margin-left: 0px;
+    }
+
+    .banner img {
+        height: 630px;
+        width: 2300px;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
